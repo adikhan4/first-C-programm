@@ -4,7 +4,7 @@ void main()
 {
 	float n1,n2;
 	printf("Enter two number:");
-	scanf("%f", &n1,&n2);
+	scanf("%f%f", &n1,&n2);
 	switch(n1>n2)
 	{
 	case 0:
